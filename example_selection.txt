@@ -1,0 +1,86 @@
+
+---------------------------------------
+----- -----     Summary     ----- -----
+* Number of plans: 30
+* Average plan length: 6.933333333333334 actions
+* Average plan cost: 77.63333333333334
+* Highest plan cost: 83
+---------------------------------------
+
+---------------------------------------
+----- -----  Selected Plan  ----- -----
+6 steps in the selected plan with overall cost 65: [at(0,open_door(rob0,strong,door0)),at(1,move(rob0,rm0)),at(2,pickup(rob0,weak,text0)),at(3,move(rob0,rm1)),at(4,move(rob0,rm2)),at(5,serve(rob0,text0,per0))]
+
+Component costs of selected plan: 
+2 plan steps had very_low cost according to metric:risk.
+4 plan steps had moderate cost according to metric:risk.
+2 plan steps had low cost according to metric:energy.
+3 plan steps had moderate cost according to metric:energy.
+1 plan step had high cost according to metric:energy.
+2 plan steps had low cost according to metric:time.
+1 plan step had moderate cost according to metric:time.
+2 plan steps had high cost according to metric:time.
+---------------------------------------
+
+---------------------------------------
+----- -----    All Plans    ----- -----
+
+6 steps in this plan with overall cost 66: [at(0,open_door(rob0,strong,door0)),at(1,move(rob0,rm0)),at(2,pickup(rob0,strong,text0)),at(3,move(rob0,rm1)),at(4,move(rob0,rm2)),at(5,serve(rob0,text0,per0))]
+
+7 steps in this plan with overall cost 76: [at(0,open_door(rob0,strong,door0)),at(1,move(rob0,rm0)),at(2,pickup(rob0,strong,text0)),at(3,move(rob0,rm1)),at(4,move(rob0,rm2)),at(5,close_door(rob0,weak,door2)),at(6,serve(rob0,text0,per0))]
+
+7 steps in this plan with overall cost 78: [at(0,open_door(rob0,strong,door0)),at(1,move(rob0,rm0)),at(2,pickup(rob0,strong,text0)),at(3,move(rob0,rm1)),at(4,move(rob0,rm2)),at(5,close_door(rob0,strong,door2)),at(6,serve(rob0,text0,per0))]
+
+7 steps in this plan with overall cost 76: [at(0,open_door(rob0,strong,door0)),at(1,move(rob0,rm0)),at(2,pickup(rob0,strong,text0)),at(3,move(rob0,rm1)),at(4,close_door(rob0,weak,door0)),at(5,move(rob0,rm2)),at(6,serve(rob0,text0,per0))]
+
+7 steps in this plan with overall cost 78: [at(0,open_door(rob0,strong,door0)),at(1,move(rob0,rm0)),at(2,pickup(rob0,strong,text0)),at(3,move(rob0,rm1)),at(4,close_door(rob0,strong,door0)),at(5,move(rob0,rm2)),at(6,serve(rob0,text0,per0))]
+
+7 steps in this plan with overall cost 76: [at(0,open_door(rob0,strong,door0)),at(1,move(rob0,rm0)),at(2,pickup(rob0,strong,text0)),at(3,move(rob0,rm1)),at(4,move(rob0,rm2)),at(5,close_door(rob0,weak,door1)),at(6,serve(rob0,text0,per0))]
+
+7 steps in this plan with overall cost 78: [at(0,open_door(rob0,strong,door0)),at(1,move(rob0,rm0)),at(2,pickup(rob0,strong,text0)),at(3,move(rob0,rm1)),at(4,move(rob0,rm2)),at(5,close_door(rob0,strong,door1)),at(6,serve(rob0,text0,per0))]
+
+6 steps in this plan with overall cost 65: [at(0,open_door(rob0,strong,door0)),at(1,move(rob0,rm0)),at(2,pickup(rob0,weak,text0)),at(3,move(rob0,rm1)),at(4,move(rob0,rm2)),at(5,serve(rob0,text0,per0))]
+
+7 steps in this plan with overall cost 75: [at(0,open_door(rob0,strong,door0)),at(1,move(rob0,rm0)),at(2,pickup(rob0,weak,text0)),at(3,move(rob0,rm1)),at(4,move(rob0,rm2)),at(5,close_door(rob0,weak,door2)),at(6,serve(rob0,text0,per0))]
+
+7 steps in this plan with overall cost 77: [at(0,open_door(rob0,strong,door0)),at(1,move(rob0,rm0)),at(2,pickup(rob0,weak,text0)),at(3,move(rob0,rm1)),at(4,move(rob0,rm2)),at(5,close_door(rob0,strong,door2)),at(6,serve(rob0,text0,per0))]
+
+7 steps in this plan with overall cost 75: [at(0,open_door(rob0,strong,door0)),at(1,move(rob0,rm0)),at(2,pickup(rob0,weak,text0)),at(3,move(rob0,rm1)),at(4,close_door(rob0,weak,door0)),at(5,move(rob0,rm2)),at(6,serve(rob0,text0,per0))]
+
+7 steps in this plan with overall cost 77: [at(0,open_door(rob0,strong,door0)),at(1,move(rob0,rm0)),at(2,pickup(rob0,weak,text0)),at(3,move(rob0,rm1)),at(4,close_door(rob0,strong,door0)),at(5,move(rob0,rm2)),at(6,serve(rob0,text0,per0))]
+
+7 steps in this plan with overall cost 75: [at(0,open_door(rob0,strong,door0)),at(1,move(rob0,rm0)),at(2,pickup(rob0,weak,text0)),at(3,move(rob0,rm1)),at(4,move(rob0,rm2)),at(5,close_door(rob0,weak,door1)),at(6,serve(rob0,text0,per0))]
+
+7 steps in this plan with overall cost 77: [at(0,open_door(rob0,strong,door0)),at(1,move(rob0,rm0)),at(2,pickup(rob0,weak,text0)),at(3,move(rob0,rm1)),at(4,move(rob0,rm2)),at(5,close_door(rob0,strong,door1)),at(6,serve(rob0,text0,per0))]
+
+7 steps in this plan with overall cost 82: [at(0,open_door(rob0,strong,door0)),at(1,move(rob0,rm0)),at(2,pickup(rob0,weak,text0)),at(3,open_door(rob0,strong,door3)),at(4,move(rob0,rm3)),at(5,move(rob0,rm2)),at(6,serve(rob0,text0,per0))]
+
+7 steps in this plan with overall cost 79: [at(0,open_door(rob0,strong,door0)),at(1,move(rob0,rm0)),at(2,pickup(rob0,weak,text0)),at(3,open_door(rob0,strong,door3)),at(4,move(rob0,rm1)),at(5,move(rob0,rm2)),at(6,serve(rob0,text0,per0))]
+
+7 steps in this plan with overall cost 83: [at(0,open_door(rob0,strong,door0)),at(1,move(rob0,rm0)),at(2,pickup(rob0,strong,text0)),at(3,open_door(rob0,strong,door3)),at(4,move(rob0,rm3)),at(5,move(rob0,rm2)),at(6,serve(rob0,text0,per0))]
+
+7 steps in this plan with overall cost 80: [at(0,open_door(rob0,strong,door0)),at(1,move(rob0,rm0)),at(2,pickup(rob0,strong,text0)),at(3,open_door(rob0,strong,door3)),at(4,move(rob0,rm1)),at(5,move(rob0,rm2)),at(6,serve(rob0,text0,per0))]
+
+7 steps in this plan with overall cost 80: [at(0,open_door(rob0,strong,door0)),at(1,move(rob0,rm0)),at(2,pickup(rob0,weak,text0)),at(3,open_door(rob0,weak,door3)),at(4,move(rob0,rm3)),at(5,move(rob0,rm2)),at(6,serve(rob0,text0,per0))]
+
+7 steps in this plan with overall cost 77: [at(0,open_door(rob0,strong,door0)),at(1,move(rob0,rm0)),at(2,pickup(rob0,weak,text0)),at(3,open_door(rob0,weak,door3)),at(4,move(rob0,rm1)),at(5,move(rob0,rm2)),at(6,serve(rob0,text0,per0))]
+
+7 steps in this plan with overall cost 81: [at(0,open_door(rob0,strong,door0)),at(1,move(rob0,rm0)),at(2,pickup(rob0,strong,text0)),at(3,open_door(rob0,weak,door3)),at(4,move(rob0,rm3)),at(5,move(rob0,rm2)),at(6,serve(rob0,text0,per0))]
+
+7 steps in this plan with overall cost 78: [at(0,open_door(rob0,strong,door0)),at(1,move(rob0,rm0)),at(2,pickup(rob0,strong,text0)),at(3,open_door(rob0,weak,door3)),at(4,move(rob0,rm1)),at(5,move(rob0,rm2)),at(6,serve(rob0,text0,per0))]
+
+7 steps in this plan with overall cost 81: [at(0,open_door(rob0,strong,door0)),at(1,move(rob0,rm0)),at(2,open_door(rob0,weak,door3)),at(3,pickup(rob0,strong,text0)),at(4,move(rob0,rm3)),at(5,move(rob0,rm2)),at(6,serve(rob0,text0,per0))]
+
+7 steps in this plan with overall cost 78: [at(0,open_door(rob0,strong,door0)),at(1,move(rob0,rm0)),at(2,open_door(rob0,weak,door3)),at(3,pickup(rob0,strong,text0)),at(4,move(rob0,rm1)),at(5,move(rob0,rm2)),at(6,serve(rob0,text0,per0))]
+
+7 steps in this plan with overall cost 83: [at(0,open_door(rob0,strong,door0)),at(1,move(rob0,rm0)),at(2,open_door(rob0,strong,door3)),at(3,pickup(rob0,strong,text0)),at(4,move(rob0,rm3)),at(5,move(rob0,rm2)),at(6,serve(rob0,text0,per0))]
+
+7 steps in this plan with overall cost 80: [at(0,open_door(rob0,strong,door0)),at(1,move(rob0,rm0)),at(2,open_door(rob0,strong,door3)),at(3,pickup(rob0,strong,text0)),at(4,move(rob0,rm1)),at(5,move(rob0,rm2)),at(6,serve(rob0,text0,per0))]
+
+7 steps in this plan with overall cost 80: [at(0,open_door(rob0,strong,door0)),at(1,move(rob0,rm0)),at(2,open_door(rob0,weak,door3)),at(3,pickup(rob0,weak,text0)),at(4,move(rob0,rm3)),at(5,move(rob0,rm2)),at(6,serve(rob0,text0,per0))]
+
+7 steps in this plan with overall cost 77: [at(0,open_door(rob0,strong,door0)),at(1,move(rob0,rm0)),at(2,open_door(rob0,weak,door3)),at(3,pickup(rob0,weak,text0)),at(4,move(rob0,rm1)),at(5,move(rob0,rm2)),at(6,serve(rob0,text0,per0))]
+
+7 steps in this plan with overall cost 82: [at(0,open_door(rob0,strong,door0)),at(1,move(rob0,rm0)),at(2,open_door(rob0,strong,door3)),at(3,pickup(rob0,weak,text0)),at(4,move(rob0,rm3)),at(5,move(rob0,rm2)),at(6,serve(rob0,text0,per0))]
+
+7 steps in this plan with overall cost 79: [at(0,open_door(rob0,strong,door0)),at(1,move(rob0,rm0)),at(2,open_door(rob0,strong,door3)),at(3,pickup(rob0,weak,text0)),at(4,move(rob0,rm1)),at(5,move(rob0,rm2)),at(6,serve(rob0,text0,per0))]
