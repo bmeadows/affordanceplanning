@@ -1,5 +1,4 @@
-# affordanceplanning
-Affordance-aware plan generation and selection
+# Affordance-aware plan generation and selection
 
 Built on platforms SPARC and SWI-Prolog.
 
