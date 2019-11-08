@@ -1,11 +1,9 @@
 # Affordance-aware plan generation and selection
 
-Built on platforms SPARC and SWI-Prolog.
+Built using the SPARC platform.
 
-robaff_revised.sp is the plan generation component. To run it:
+robaff_dlv.sp is the plan generation component. To run it under Windows:
 
-   java -jar sparc.jar robaff_revised.sp -A > plans_out.txt
+   java -jar sparc.jar robaff_dlv.sp -solver dlv -A > plans_out.txt
 
-selector.pl is the plan selection component. To run it:
-
-   run('plans_sample.txt', 'out.txt').
+This version no longer requires Prolog to run.
